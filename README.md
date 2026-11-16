@@ -1,10 +1,31 @@
-# React + Vite
+# Product Register
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React CRUD app for managing a product list: add, update, delete and search products, with the product data served by a backend API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add a new product
+- Update an existing product
+- Delete a product
+- Search and filter the product list
 
-# Darya-Rastegar
+## Built with
+
+- React 18
+- Vite 5
+- React Router 6
+- TanStack Query 5 and Axios for data fetching
+- react-icons
+
+## Running locally
+
+This app expects a backend API. Create a .env file and set VITE_BASE_URL to point at it.
+
+```bash
+npm install
+npm run dev
+```
+
+## About
+
+Built by Darya Rastegar while learning React. More of my work: https://github.com/DaryaRastegar
